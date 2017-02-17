@@ -1,13 +1,14 @@
 package lightshadow.material_intro;
 
-import android.app.Fragment;
 import android.os.Bundle;
-import android.widget.ImageView;
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
 
-import org.androidannotations.annotations.ViewById;
+import lightshadow.material_intro.fragments.FragmentIntro1_;
+import lightshadow.material_intro.fragments.FragmentIntro2_;
+import lightshadow.material_intro.fragments.FragmentIntro3;
+import lightshadow.material_intro.fragments.FragmentIntro4_;
 
 /**
  * Created by lightshadow on 2017/2/15.
@@ -36,7 +37,7 @@ public class MainIntroActivity extends IntroActivity {
 
         addSlide(new FragmentSlide.Builder()
                 .background(R.color.color4)
-                .fragment(new FragmentIntro4())
+                .fragment(new FragmentIntro4_())
                 .build());
     }
 }

@@ -4,4 +4,10 @@
     <string name="fragment2">fragment2</string>
     <string name="fragment3">fragment3</string>
     <string name="fragment4">fragment4</string>
+    <string name="termsConfirm">接受</string>
+    <string name="termsReject">拒絕</string>
+    <string name="start_intro">start intro</string>
+    <string name="select_1">select 1</string>
+    <string name="select_2">select 2</string>
+    <string name="ok">ok</string>
 </resources>

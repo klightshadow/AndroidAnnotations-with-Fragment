@@ -1,4 +1,4 @@
-package lightshadow.material_intro;
+package lightshadow.material_intro.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 import com.heinrichreimersoftware.materialintro.app.SlideFragment;
 import com.squareup.picasso.Picasso;
+
+import lightshadow.material_intro.R;
 
 /**
  * Created by lightshadow on 2017/2/15.

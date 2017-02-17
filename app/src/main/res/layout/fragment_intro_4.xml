@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/iv_img4"
-        android:layout_width="380dp"
-        android:layout_height="200dp"
-        />
+    <WebView
+        android:id="@+id/wv_terms"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
 
-    <TextView
+    <Button
+        android:id="@+id/btn_termsConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fragment4"/>
+        android:layout_below="@+id/wv_terms"
+        android:layout_toEndOf="@+id/btn_termsReject"
+        android:text="@string/termsConfirm"/>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btn_termsReject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wv_terms"
+        android:text="@string/termsReject"/>
+
+</RelativeLayout>

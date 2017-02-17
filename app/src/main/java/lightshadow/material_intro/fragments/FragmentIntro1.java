@@ -1,4 +1,4 @@
-package lightshadow.material_intro;
+package lightshadow.material_intro.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,6 +13,8 @@ import com.squareup.picasso.Picasso;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.ViewById;
+
+import lightshadow.material_intro.R;
 
 /**
  * Created by lightshadow on 2017/2/15.
