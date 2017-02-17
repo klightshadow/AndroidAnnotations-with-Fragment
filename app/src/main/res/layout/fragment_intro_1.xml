@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
@@ -10,6 +12,19 @@
         />
 
     <!--android:src="@mipmap/a083a2505"-->
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/np_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:np_max="10"
+        app:np_min="0"
+        app:np_value="5"
+        app:np_dividerColor="@color/colorAccent"
+        app:np_wheelItemCount="5"
+        app:np_dividerDistance="100dp"
+        app:np_orientation="horizontal"
+        app:np_textSize="16pt"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

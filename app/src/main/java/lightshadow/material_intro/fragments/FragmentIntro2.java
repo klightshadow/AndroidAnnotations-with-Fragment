@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.heinrichreimersoftware.materialintro.app.SlideFragment;
 import com.squareup.picasso.Picasso;
 
@@ -28,7 +29,7 @@ public class FragmentIntro2 extends SlideFragment {
 
     @AfterViews
     void initView() {
-        Picasso.with(getActivity().getApplicationContext()).load(R.mipmap.a128003962622616327571).fit().into(imageView);
+        Glide.with(getActivity().getApplicationContext()).load(R.mipmap.a128003962622616327571).into(imageView);
     }
 
 //    @Nullable
